@@ -1,0 +1,160 @@
+
+
+.matrix {
+    display: flex;
+    flex-direction: column;
+}
+
+.cell {
+    background-size: 34px;
+    width: 34px;
+    height: 34px;
+    /* border: black solid 1px; */
+    /* margin: 1vmin; */
+}
+
+.content {
+    background-size: 34px;
+    /* background-size: 46px; */
+    background-image: url("./images/sand.png");
+    width: 34px;
+    height: 34px;
+    /* background-color: MediumAquaMarine; */
+}
+
+.headR {
+    transform: rotate(270deg);
+    background-size: 35px;
+    background-image: url("./images/snakeSand2.jpg");
+    width: 34px;
+    height: 34px;
+    /* background-color: rgb(255, 0, 0) */
+}
+.headL {
+    transform: rotate(90deg);
+    background-size: 34px;
+    background-image: url("./images/snakeSand2.jpg");
+    width: 34px;
+    height: 34px;
+    /* background-color: rgb(255, 0, 0) */
+}
+.headDOWN {
+    background-size: 34px;
+    background-image: url("./images/snakeSand2.jpg");
+    width: 34px;
+    height: 34px;
+    /* background-color: rgb(255, 0, 0) */
+}
+.headUP {
+    transform: rotate(180deg);
+    background-size: 34px;
+    background-image: url("./images/snakeSand2.jpg");
+    width: 34px;
+    height: 34px;
+    /* background-color: rgb(255, 0, 0) */
+}
+
+.snake {
+    background-size: 34px;
+    width: 34px;
+    height: 34px;
+    background-color: #b4fa5a
+}
+
+.block {
+    background-size: 34px;
+    background-image: url("./images/brick.jpg");
+    width: 34px;
+    height: 34px;
+    /* background-color: black */
+}
+
+.fruit {
+    background-size: contain;
+    background-image: url("./images/AppleSand.jpg");
+    width: 34px;
+    height: 34px;
+    background-color: green;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-content: center;
+}
+
+.grid {
+    margin-top: 54px;
+    display: grid;
+    justify-content: center;
+    border: ridge rgb(189, 189, 189) 2px;
+    border-width: 20px;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.All {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* border: 3px solid DarkOliveGreen; */
+}
+
+/* .food{
+    background-color: ;
+} */
+
+.score {
+    margin-left: 30px;
+    top: 6px;
+    align-self: flex-end;
+    position: absolute;
+    max-width: 300px;
+    font-size: 30px;
+    color: white;
+    opacity: 0.79;
+}
+.scoreNONE {
+    max-width: 300px;
+    position: absolute;
+    font-size: 40px;
+    /* background-color: white;
+    border: solid 3px white; */
+    text-decoration: white;
+    opacity: 0;
+}
+
+.gameover {
+    bottom: 140px;
+    min-width: 600px;
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    background-color: rgb(53, 51, 51);
+    border-radius: 40px;
+    padding: 30px;
+    opacity: 0.78;
+}
+
+.restart {
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    min-height: 50px;
+    min-width: 140px;
+    background-color: white;
+    top: -20px;
+    border: ridge;
+    border-radius: 40px;
+}
+
+.restart:hover {
+    border: 4px solid transparent; /*2*/
+    background-image:linear-gradient(white, white), radial-gradient(circle at top left, #f00,#3020ff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
