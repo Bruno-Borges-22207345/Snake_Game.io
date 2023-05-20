@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Snake_Game.io/static/css/main.5159a9b3.css",
+    "main.js": "/Snake_Game.io/static/js/main.a369b31c.js",
+    "static/js/787.cda612ba.chunk.js": "/Snake_Game.io/static/js/787.cda612ba.chunk.js",
+    "static/media/skin3.jpg": "/Snake_Game.io/static/media/skin3.aa1d31d72db6b12da30a.jpg",
+    "static/media/skin2.jpg": "/Snake_Game.io/static/media/skin2.304cb9517de9dd48c09f.jpg",
+    "static/media/skin4.png": "/Snake_Game.io/static/media/skin4.30f60b0b2daa6d831149.png",
+    "static/media/skin1.jpg": "/Snake_Game.io/static/media/skin1.7b52752c42c97dd23757.jpg",
+    "static/media/skin.jpg": "/Snake_Game.io/static/media/skin.29e5e7aad9229a7c8cb7.jpg",
+    "static/media/back.png": "/Snake_Game.io/static/media/back.54df3ecfc52815f247ac.png",
+    "static/media/image.png": "/Snake_Game.io/static/media/image.148b93470567c76a3491.png",
+    "index.html": "/Snake_Game.io/index.html",
+    "main.5159a9b3.css.map": "/Snake_Game.io/static/css/main.5159a9b3.css.map",
+    "main.a369b31c.js.map": "/Snake_Game.io/static/js/main.a369b31c.js.map",
+    "787.cda612ba.chunk.js.map": "/Snake_Game.io/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5159a9b3.css",
+    "static/js/main.a369b31c.js"
+  ]
+}
